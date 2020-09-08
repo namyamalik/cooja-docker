@@ -7,11 +7,11 @@ A docker container that has all the dependencies to run the Contiki OS Cooja sim
 * Docker-desktop should be installed on your system. Make sure it is running.
 
 ### For machines with X11 support
-* On a Linux host, this command should start the cooja GUI within a docker container (borrowed from another repo):
+* On a Linux host, the commands below should start the cooja GUI within a docker container. I borrowed this from another repo. I could have written my own Dockerfile but I am working on a Mac which does not have X11 support, so I would not have been able to test my Dockerfile on my machine. So I used another repo to provide instructions for machines with X11 and then figured out the functionality for machines without X11 (see next section)
 ```
 docker run -it --rm -e DISPLAY --net=host sbungartz/cooja ant run
 ```
-or 
+or (this command maps the display environment variable)
 ```
 docker run -it --rm -e DISPLAY=$DISPLAY --net=host sbungartz/cooja ant run
 ```
