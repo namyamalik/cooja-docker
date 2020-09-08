@@ -1,8 +1,7 @@
-# cooja-docker
+## cooja-docker
+## Author: Namya Malik
 
-A docker container that has all the dependencies to run the Contiki OS Cooja simulator. 
-
-## INSTALLATION
+A docker container that has all the dependencies to run the Contiki OS Cooja simulator. Instructions provided for machines with X11 support and machines without X11 support.
 
 ### Prerequisites
 * Docker-desktop should be installed on your system. Make sure it is running.
@@ -63,7 +62,7 @@ cd contiki/tools/cooja
 ant run
 ```
 
-### Miscellaneous
+### Background Info
 X11 is needed for GUI interaction. 
 
 ### Helpful docker commands:
@@ -80,8 +79,3 @@ X11 is needed for GUI interaction.
 * Force remove all containers and free space: `docker system prune --force`
 
 * Remove images and free space: `docker rmi imageID [imageID]`
-
-## ASSIGNMENTS
-* For a tutorial/sample application of Cooja, see https://d18ky98rnyall9.cloudfront.net/P45NLC5yEeiHlgpAux3xng_3ff0df602e7211e8a7c4656e953f60b9_CoojaManual.pdf?Expires=1594684800&Signature=N0DMMRLANEQ6HfKu0arwoSGFGbr5F39ZI3u2hfVXQy5KN9OwK-l3Ndn1tJVo2MZSlh83naaAJ65k54W2f0fVLuB3u7vqva7qZjvpsVC5JO2XyPPwzC3uWFxnR2ObNTTjXNMkhrNjLJeopW0wuC5vsIys4u982RcefuxF66NrfEw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
-* For the first Coursera assignment, see https://d18ky98rnyall9.cloudfront.net/Shw_8nLBEeiMOxLWp7wpfg_4a5be0b072c111e89508a947a324f3d8_Cooja_task.pdf?Expires=1594684800&Signature=E1q3i9s6QveUCdYZ3UEUheFJJ7nG3qiPUjptVyMcjpTaoiyuuTnAojRmPiYFE1CSn3Db6DSxcEuVMql50Kl4ZXLANulFCUvFwC~WB1hFnvD~L9BeY5500lSacw4nDNtjhp3lwifgrZzxQVDwpt8AYe8w~br4VgIQsP36OHaBGvM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
-* For the second Coursera assignment, see https://d18ky98rnyall9.cloudfront.net/_3cfb6de0feadf7d84b6072ca68279dc9_Peer-assignment-2---Energy-estimation.pdf?Expires=1594684800&Signature=OdTkmTP5rlamb5ibQ9uC0zGQJbkYttGRFrkdd0GCdboRfp9-7l7gZUdXGkNhMpeMZpMC29u4nhqrBBl8QHe5ttF9INOIJTcHC6X4GoUw69JKaT1St9DLE30QN5kLcsppWB1~M6Ih4jFIKPqieSCpA1HPzH96VBgmRj5ryQ3qM~w_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
