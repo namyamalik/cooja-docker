@@ -1,7 +1,7 @@
 ## cooja-docker
 ## Author: Namya Malik
 
-A docker container that has all the dependencies to run the Contiki OS Cooja simulator. Instructions provided for machines with X11 support and machines without X11 support.
+Instructions to install and run the Contiki OS Cooja simulator within a docker container. Instructions provided for machines with X11 support and machines without X11 support.
 
 ### Prerequisites
 * Docker-desktop should be installed on your system. Make sure it is running.
